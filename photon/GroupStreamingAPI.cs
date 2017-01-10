@@ -260,7 +260,7 @@ namespace LobiAPI
                             }
                             FailConnectEvent?.Invoke(GroupID, ex);
                         }
-                        Thread.Sleep(RetryCoolTimeMilliseconds);//クールタイム
+                        await Task.Delay(RetryCoolTimeMilliseconds);//クールタイム
                     }
                 }
             }
