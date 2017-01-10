@@ -16,7 +16,7 @@ namespace LobiAPI
 {
     public class BasicAPI
     {
-        private readonly string UserAgent = "LobiAPI-of-AmenixProject";
+        private readonly string UserAgent = "photon";
         private readonly string platform = "android";
         private string DeviceUUID = "";
         public string Token { get; set; }
